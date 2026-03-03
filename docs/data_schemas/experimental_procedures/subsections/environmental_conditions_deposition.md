@@ -50,12 +50,12 @@
     Relative humidity during the activity.
 
     * type: float
-    * unit: percent
+    * unit: %
     * example: 45
 
 ??? "oxygen_concentration"
     The oxygen concentration during the activity.
 
     * type: float
-    * unit: percent
+    * unit: %
     * example: 0.001
