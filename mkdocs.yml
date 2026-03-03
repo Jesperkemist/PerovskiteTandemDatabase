@@ -1,0 +1,98 @@
+site_name: Perovksite Tandem Database. Documentation
+site_author: T. Jesper Jacobsson
+theme:
+  name: material
+  palette:
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep purple
+  features:
+    # - navigation.expand
+    # - navigation.sections
+    - navigation.instant
+    - navigation.tracking
+    - navigation.path
+    - navigation.footer
+    - navigation.top
+    # - navigation.tabs
+
+plugins:
+  - search
+  - macros
+  - include-markdown
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.arithmatex:
+      generic: true 
+  - pymdownx.highlight:
+      anchor_linenums: true           
+  - toc:
+      permalink: true
+
+
+
+nav:
+  - Home: index.md
+  - Data Schemas: 
+    - Instructions: data_schemas/introduction.md
+    - data:
+      - general: data_schemas/general/general.md
+      - reference: data_schemas/reference/reference.md
+      - key_performance_metrics: data_schemas/key_performance_metrics/key_performance_metrics.md
+      - device_stack: 
+        - Information: data_schemas/device_stack/information.md
+        - Layers:
+          - GeneralLayer: data_schemas/device_stack/layers/GeneralLayer.md
+          - Perovskite: data_schemas/device_stack/layers/Photoabsorber_Perovskite.md
+          - Silicon: data_schemas/device_stack/layers/Photoabsorber_Silicon.md
+          - CIGS: data_schemas/device_stack/layers/Photoabsorber_CIGS.md
+          - CZTS: data_schemas/device_stack/layers/Photoabsorber_CZTS.md
+          - GaAs: data_schemas/device_stack/layers/Photoabsorber_GaAs.md
+          - OPV: data_schemas/device_stack/layers/Photoabsorber_OPV.md
+          - DSSC: data_schemas/device_stack/layers/Photoabsorber_DSSC.md
+          - QuantumDot: data_schemas/device_stack/layers/Photoabsorber_QuantumDot.md
+        - Experimental procedures: data_schemas/experimental_procedures/experimental_procedures.md
+      - measurements:
+        - jv: data_schemas/measurements/JV.md
+        - eqe: data_schemas/measurements/EQE.md
+        - stabilized_performance: data_schemas/measurements/Stabilized_performance.md
+        - stability: data_schemas/measurements/Stability.md
+        - outdoor_performance: data_schemas/measurements/Outdoor_performance.md
+        - transmission: data_schemas/measurements/Transmission.md
+        - flexibility: data_schemas/measurements/Flexibility.md
+
+      - encapsulation: data_schemas/encapsulation/encapsulation_data.md 
+      - module_data: data_schemas/module/module_data.md  
+  - Example data files: datafiles.md
+  - Resources: resources.md
+  - How to cite: how_to_cite.md
+  - How to guides: how_to_guides/how_to_guides.md
+  # - Contribute data: contribute_data.md
+  - How to extend the data schemas: extend_the_data_schemas.md
+  - Instructions for authors: instructions_for_authors.md
+  - Contact: contacts.md
