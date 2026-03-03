@@ -9,7 +9,7 @@ Should start with the layer in the bottom of the device (i.e. the layer that is 
 The layer object can be a deeply nested object.
 
 
-Depending on the functionality of the functionality of the layer and the material, 
+Depending on the functionality of the layer and the material, 
 there are different information that may be relevant. Photoabsorbers have, for example, been given somewhat more elaborate data sections than other layer. 
 
 

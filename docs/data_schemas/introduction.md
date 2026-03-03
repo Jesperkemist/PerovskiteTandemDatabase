@@ -2,7 +2,7 @@
 Every single tandem device is supposed to be described using one single JSON file. <br> 
 
 #### Note on categorical data
-Categorical data is whenever possible implemented as list of available options that can be selected rather. This tends to increase data quality compared to when using free text options. However, the suggested alternatives will never be exhaustive, so when your device is not covered by the available options, please feel free to define additional categories.
+Categorical data is whenever possible implemented as list of available options that can be selected. This tends to increase data quality compared to when using free text options. However, the suggested alternatives will never be exhaustive, so when your device is not covered by the available options, please feel free to define additional categories.
  
 
 ### Top level

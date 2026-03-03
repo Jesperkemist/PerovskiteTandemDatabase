@@ -1,0 +1,477 @@
+{
+    "data": {
+        "m_def": "perovskite_solar_cell_database.schema_packages.tandem.schema.PerovskiteTandemSolarCell",
+        "reference": {
+            "publication_date": "2020-04-02T00:00:00",
+            "journal": "Small Methods",
+            "sample_id": "WOx/NbOy",
+            "name_of_person_entering_the_data": "Daniel Ramirez",
+            "data_entered_by_author": false,
+            "part_of_initial_dataset": true,
+            "DOI_number": "10.1002/smtd.202000074",
+            "publication_authors": [
+                "Park et al."
+            ],
+            "ID_temp": 87
+        },
+        "general": {
+            "number_of_junctions": 2,
+            "number_of_terminals": 4,
+            "architecture": "Stacked",
+            "flexible": false,
+            "semitransparent": false,
+            "encapsulated": false,
+            "active_area": 0.0707,
+            "photoabsorbers": [
+                "Silicon",
+                "Perovskite"
+            ],
+            "photoabsorbers_string": "Silicon-Perovskite",
+            "photoabsorbers_bandgaps": [
+                1.1,
+                1.6
+            ]
+        },
+        "key_performance_metrics": {
+            "power_conversion_efficiency": 25.1,
+            "short_circuit_current_density": 12.5,
+            "open_circuit_voltage": 0.65,
+            "fill_factor": 0.801
+        },
+        "device_stack": [
+            {
+                "layer_index": 1,
+                "functionality": "back contact",
+                "device_subset": 1,
+                "name": "Al",
+                "components": [
+                    {
+                        "name": "Al",
+                        "functionality": "majority phase"
+                    }
+                ],
+                "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.GeneralLayer"
+            },
+            {
+                "layer_index": 2,
+                "functionality": "photoabsorber",
+                "device_subset": 1,
+                "name": "silicon",
+                "properties": {
+                    "band_gap": {
+                        "value": 1.1
+                    }
+                },
+                "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.Photoabsorber_Silicon",
+                "type_of_silicon": "Monocrystalline",
+                "doping_sequence": "c-Si(p+)/c-Si(p)/c-Si(n+)"
+            },
+            {
+                "layer_index": 3,
+                "functionality": "air gap",
+                "name": "Air",
+                "components": [
+                    {
+                        "name": "Air",
+                        "functionality": "majority phase"
+                    }
+                ],
+                "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.GeneralLayer"
+            },
+            {
+                "layer_index": 4,
+                "functionality": "substrate",
+                "name": "SLG",
+                "components": [
+                    {
+                        "name": "SLG",
+                        "functionality": "majority phase"
+                    }
+                ],
+                "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.GeneralLayer"
+            },
+            {
+                "layer_index": 5,
+                "functionality": "back contact",
+                "device_subset": 2,
+                "name": "FTO",
+                "components": [
+                    {
+                        "name": "FTO",
+                        "functionality": "majority phase"
+                    }
+                ],
+                "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.GeneralLayer"
+            },
+            {
+                "layer_index": 6,
+                "functionality": "electron transport layer",
+                "device_subset": 2,
+                "name": "TiO2-c",
+                "properties": {
+                    "thickness": {
+                        "value": 60.0
+                    }
+                },
+                "components": [
+                    {
+                        "name": "TiO2-c",
+                        "functionality": "majority phase"
+                    }
+                ],
+                "deposition_procedure": {
+                    "substrate_layer": "on lower layer",
+                    "steps": [
+                        {
+                            "method": "SprayCoating",
+                            "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.SprayCoating"
+                        }
+                    ]
+                },
+                "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.GeneralLayer"
+            },
+            {
+                "layer_index": 7,
+                "functionality": "electron transport layer",
+                "device_subset": 2,
+                "name": "TiO2-mp",
+                "properties": {
+                    "thickness": {
+                        "value": 100.0
+                    }
+                },
+                "components": [
+                    {
+                        "name": "TiO2-mp",
+                        "functionality": "majority phase"
+                    }
+                ],
+                "deposition_procedure": {
+                    "substrate_layer": "on lower layer",
+                    "steps": [
+                        {
+                            "method": "SpinCoating",
+                            "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.SpinCoating"
+                        }
+                    ]
+                },
+                "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.GeneralLayer"
+            },
+            {
+                "layer_index": 8,
+                "functionality": "photoabsorber",
+                "device_subset": 2,
+                "name": "Perovskite",
+                "properties": {
+                    "crystallinity": {
+                        "value": "polycrystalline"
+                    },
+                    "band_gap": {
+                        "value": 1.6,
+                        "graded": false
+                    }
+                },
+                "deposition_procedure": {
+                    "substrate_layer": "on lower layer",
+                    "antisolvent": true,
+                    "duration": 10.0,
+                    "steps": [
+                        {
+                            "method": "SpinCoating",
+                            "solution": {
+                                "components": [
+                                    {
+                                        "name": "DMF"
+                                    },
+                                    {
+                                        "name": "DMSO"
+                                    }
+                                ]
+                            },
+                            "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.SpinCoating"
+                        },
+                        {
+                            "method": "Heating",
+                            "temperature_segments": [
+                                {
+                                    "temperature_end": 150.0,
+                                    "time_of_segment": 10.0
+                                }
+                            ],
+                            "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.Heating"
+                        }
+                    ]
+                },
+                "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.Photoabsorber_Perovskite",
+                "has_a_2D_perovskite_capping_layer": false,
+                "lead_free": false,
+                "inorganic": false,
+                "composition": {
+                    "band_gap": 1.6,
+                    "sample_type": "Polycrystalline film",
+                    "dimensionality": "3D",
+                    "short_form": "FAMAPbBrI",
+                    "long_form": "FA0.95MA0.05PbBr0.15I2.85",
+                    "ions_a_site": [
+                        {
+                            "ion": "FA",
+                            "coefficient": 0.95,
+                            "molecular_formula": "CH5N2+",
+                            "smile": "C(=[NH2+])N",
+                            "common_name": "Formamidinium",
+                            "iupac_name": "aminomethylideneazanium",
+                            "cas_number": "nan",
+                            "source_compound_smile": "C(=N)N",
+                            "source_compound_iupac_name": "methanimidamide",
+                            "source_compound_cas_number": "463-52-5",
+                            "abbreviation": "FA"
+                        },
+                        {
+                            "ion": "MA",
+                            "coefficient": 0.05,
+                            "molecular_formula": "CH6N+",
+                            "smile": "C[NH3+]",
+                            "common_name": "Methylammonium",
+                            "iupac_name": "methylazanium",
+                            "cas_number": "17000-00-9",
+                            "source_compound_smile": "CN",
+                            "source_compound_iupac_name": "methanamine",
+                            "source_compound_cas_number": "74-89-5",
+                            "abbreviation": "MA"
+                        }
+                    ],
+                    "ions_b_site": [
+                        {
+                            "ion": "Pb",
+                            "coefficient": 1.0,
+                            "molecular_formula": "Pb2+",
+                            "smile": "[Pb+2]",
+                            "common_name": "Lead",
+                            "iupac_name": "lead(2+)",
+                            "cas_number": "14280-50-3",
+                            "source_compound_smile": "[Pb]",
+                            "source_compound_iupac_name": "Lead",
+                            "source_compound_cas_number": "7439-92-1",
+                            "abbreviation": "Pb"
+                        }
+                    ],
+                    "ions_x_site": [
+                        {
+                            "ion": "Br",
+                            "coefficient": 0.15,
+                            "molecular_formula": "Br-",
+                            "smile": "[Br-]",
+                            "common_name": "Bromide",
+                            "iupac_name": "Bromide",
+                            "cas_number": "24959-67-9",
+                            "source_compound_smile": "BrBr",
+                            "source_compound_iupac_name": "molecular bromine",
+                            "source_compound_cas_number": "7726-95-6",
+                            "abbreviation": "Br"
+                        },
+                        {
+                            "ion": "I",
+                            "coefficient": 2.85,
+                            "molecular_formula": "I-",
+                            "smile": "[I-]",
+                            "common_name": "Iodide",
+                            "iupac_name": "Iodide",
+                            "cas_number": "20461-54-5",
+                            "source_compound_smile": "II",
+                            "source_compound_iupac_name": "molecular iodine",
+                            "source_compound_cas_number": "7553-56-2",
+                            "abbreviation": "I"
+                        }
+                    ]
+                }
+            },
+            {
+                "layer_index": 9,
+                "functionality": "hole transport layer",
+                "device_subset": 2,
+                "name": "PTAA",
+                "components": [
+                    {
+                        "name": "PTAA",
+                        "functionality": "majority phase"
+                    }
+                ],
+                "deposition_procedure": {
+                    "substrate_layer": "on lower layer",
+                    "steps": [
+                        {
+                            "method": "SpinCoating",
+                            "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.SpinCoating"
+                        }
+                    ]
+                },
+                "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.GeneralLayer"
+            },
+            {
+                "layer_index": 10,
+                "functionality": "front contact",
+                "device_subset": 2,
+                "name": "WOx",
+                "properties": {
+                    "thickness": {
+                        "value": 70.0
+                    }
+                },
+                "components": [
+                    {
+                        "name": "WOx",
+                        "functionality": "majority phase"
+                    }
+                ],
+                "deposition_procedure": {
+                    "substrate_layer": "on lower layer",
+                    "steps": [
+                        {
+                            "method": "Evaporation",
+                            "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.Evaporation"
+                        }
+                    ]
+                },
+                "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.GeneralLayer"
+            },
+            {
+                "layer_index": 11,
+                "functionality": "front contact",
+                "device_subset": 2,
+                "name": "NbOy",
+                "properties": {
+                    "thickness": {
+                        "value": 9.0
+                    }
+                },
+                "components": [
+                    {
+                        "name": "NbOy",
+                        "functionality": "majority phase"
+                    }
+                ],
+                "deposition_procedure": {
+                    "substrate_layer": "on lower layer",
+                    "steps": [
+                        {
+                            "method": "Sputtering",
+                            "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.Sputtering"
+                        }
+                    ]
+                },
+                "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.GeneralLayer"
+            },
+            {
+                "layer_index": 12,
+                "functionality": "front contact",
+                "device_subset": 2,
+                "name": "ITO",
+                "properties": {
+                    "thickness": {
+                        "value": 130.0
+                    }
+                },
+                "components": [
+                    {
+                        "name": "ITO",
+                        "functionality": "majority phase"
+                    }
+                ],
+                "deposition_procedure": {
+                    "substrate_layer": "on lower layer",
+                    "steps": [
+                        {
+                            "method": "Sputtering",
+                            "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.Sputtering"
+                        }
+                    ]
+                },
+                "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.GeneralLayer"
+            }
+        ],
+        "measurements": {
+            "jv": [
+                {
+                    "certified": false,
+                    "device_subset": 0,
+                    "measurement_conditions": {
+                        "scan_speed": 100.0,
+                        "scan_direction": "reversed"
+                    },
+                    "illumination": {
+                        "intensity": 100.0,
+                        "mask": false
+                    },
+                    "light_source": {
+                        "spectrum": "AM1.5",
+                        "light_source": "Solar simulator unspecified"
+                    },
+                    "light_regime": "standard light",
+                    "results": {
+                        "short_circuit_current_density": 12.5,
+                        "open_circuit_voltage": 0.65,
+                        "fill_factor": 0.801,
+                        "power_conversion_efficiency": 25.1
+                    }
+                },
+                {
+                    "device_subset": 1,
+                    "measurement_conditions": {
+                        "scan_speed": 100.0
+                    },
+                    "illumination": {
+                        "intensity": 100.0,
+                        "mask": false
+                    },
+                    "light_source": {
+                        "spectrum": "AM1.5",
+                        "light_source": "Solar simulator unspecified"
+                    },
+                    "light_regime": "standard light",
+                    "results": {
+                        "short_circuit_current_density": 41.8,
+                        "open_circuit_voltage": 0.686,
+                        "fill_factor": 0.798,
+                        "power_conversion_efficiency": 22.9
+                    }
+                },
+                {
+                    "device_subset": 2,
+                    "measurement_conditions": {
+                        "scan_speed": 100.0
+                    },
+                    "illumination": {
+                        "intensity": 100.0,
+                        "mask": false
+                    },
+                    "light_source": {
+                        "spectrum": "AM1.5",
+                        "light_source": "Solar simulator unspecified"
+                    },
+                    "light_regime": "standard light",
+                    "results": {
+                        "short_circuit_current_density": 23.2,
+                        "open_circuit_voltage": 0.99,
+                        "fill_factor": 0.803,
+                        "power_conversion_efficiency": 18.6,
+                        "resistance_series": 3.3,
+                        "resistance_shunt": 3200.0
+                    }
+                }
+            ],
+            "eqe": [
+                {
+                    "device_subset": 0
+                }
+            ],
+            "transmission": [
+                {
+                    "results": {
+                        "average_transmission": 65.0
+                    },
+                    "device_subset": 2
+                }
+            ]
+        }
+    }
+}

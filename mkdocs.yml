@@ -93,6 +93,6 @@ nav:
   - How to cite: how_to_cite.md
   - How to guides: how_to_guides/how_to_guides.md
   # - Contribute data: contribute_data.md
-  - How to extend the data schemas: extend_the_data_schemas.md
-  - Instructions for authors: instructions_for_authors.md
+  # - How to extend the data schemas: extend_the_data_schemas.md
+  # - Instructions for authors: instructions_for_authors.md
   - Contact: contacts.md
