@@ -1,0 +1,2816 @@
+{
+    "data": {
+        "m_def": "perovskite_solar_cell_database.schema_packages.tandem.schema.PerovskiteTandemSolarCell",
+        "m_def_id": "f0deadfc918c0648967097dd29eb6fd6955b6534",
+        "figures": [
+            {
+                "figure": {
+                    "data": [
+                        {
+                            "alphahull": 1,
+                            "color": "#D3D3D3",
+                            "hoverinfo": "name",
+                            "name": "Molybedenum",
+                            "opacity": 1,
+                            "showlegend": true,
+                            "x": [
+                                0,
+                                0,
+                                0,
+                                0,
+                                5,
+                                5,
+                                5,
+                                5
+                            ],
+                            "y": [
+                                0,
+                                0,
+                                5,
+                                5,
+                                0,
+                                0,
+                                5,
+                                5
+                            ],
+                            "z": [
+                                0,
+                                0.1,
+                                0,
+                                0.1,
+                                0,
+                                0.1,
+                                0,
+                                0.1
+                            ],
+                            "type": "mesh3d"
+                        },
+                        {
+                            "hoverinfo": "skip",
+                            "line": {
+                                "color": "black",
+                                "width": 3
+                            },
+                            "mode": "lines",
+                            "showlegend": false,
+                            "x": [
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null
+                            ],
+                            "y": [
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                0,
+                                0,
+                                null
+                            ],
+                            "z": [
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0.1,
+                                0.1,
+                                null,
+                                0.1,
+                                0.1,
+                                null,
+                                0.1,
+                                0.1,
+                                null,
+                                0.1,
+                                0.1,
+                                null,
+                                0,
+                                0.1,
+                                null,
+                                0,
+                                0.1,
+                                null,
+                                0,
+                                0.1,
+                                null,
+                                0,
+                                0.1,
+                                null
+                            ],
+                            "type": "scatter3d"
+                        },
+                        {
+                            "alphahull": 1,
+                            "color": "orange",
+                            "hoverinfo": "name",
+                            "name": "CIGS",
+                            "opacity": 1,
+                            "showlegend": true,
+                            "x": [
+                                0,
+                                0,
+                                0,
+                                0,
+                                5,
+                                5,
+                                5,
+                                5
+                            ],
+                            "y": [
+                                0,
+                                0,
+                                5,
+                                5,
+                                0,
+                                0,
+                                5,
+                                5
+                            ],
+                            "z": [
+                                0.1,
+                                0.9,
+                                0.1,
+                                0.9,
+                                0.1,
+                                0.9,
+                                0.1,
+                                0.9
+                            ],
+                            "type": "mesh3d"
+                        },
+                        {
+                            "hoverinfo": "skip",
+                            "line": {
+                                "color": "black",
+                                "width": 3
+                            },
+                            "mode": "lines",
+                            "showlegend": false,
+                            "x": [
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null
+                            ],
+                            "y": [
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                0,
+                                0,
+                                null
+                            ],
+                            "z": [
+                                0.1,
+                                0.1,
+                                null,
+                                0.1,
+                                0.1,
+                                null,
+                                0.1,
+                                0.1,
+                                null,
+                                0.1,
+                                0.1,
+                                null,
+                                0.9,
+                                0.9,
+                                null,
+                                0.9,
+                                0.9,
+                                null,
+                                0.9,
+                                0.9,
+                                null,
+                                0.9,
+                                0.9,
+                                null,
+                                0.1,
+                                0.9,
+                                null,
+                                0.1,
+                                0.9,
+                                null,
+                                0.1,
+                                0.9,
+                                null,
+                                0.1,
+                                0.9,
+                                null
+                            ],
+                            "type": "scatter3d"
+                        },
+                        {
+                            "alphahull": 1,
+                            "color": "#BEBEBE",
+                            "hoverinfo": "name",
+                            "name": "Cds",
+                            "opacity": 1,
+                            "showlegend": true,
+                            "x": [
+                                0,
+                                0,
+                                0,
+                                0,
+                                5,
+                                5,
+                                5,
+                                5
+                            ],
+                            "y": [
+                                0,
+                                0,
+                                5,
+                                5,
+                                0,
+                                0,
+                                5,
+                                5
+                            ],
+                            "z": [
+                                0.9,
+                                1,
+                                0.9,
+                                1,
+                                0.9,
+                                1,
+                                0.9,
+                                1
+                            ],
+                            "type": "mesh3d"
+                        },
+                        {
+                            "hoverinfo": "skip",
+                            "line": {
+                                "color": "black",
+                                "width": 3
+                            },
+                            "mode": "lines",
+                            "showlegend": false,
+                            "x": [
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null
+                            ],
+                            "y": [
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                0,
+                                0,
+                                null
+                            ],
+                            "z": [
+                                0.9,
+                                0.9,
+                                null,
+                                0.9,
+                                0.9,
+                                null,
+                                0.9,
+                                0.9,
+                                null,
+                                0.9,
+                                0.9,
+                                null,
+                                1,
+                                1,
+                                null,
+                                1,
+                                1,
+                                null,
+                                1,
+                                1,
+                                null,
+                                1,
+                                1,
+                                null,
+                                0.9,
+                                1,
+                                null,
+                                0.9,
+                                1,
+                                null,
+                                0.9,
+                                1,
+                                null,
+                                0.9,
+                                1,
+                                null
+                            ],
+                            "type": "scatter3d"
+                        },
+                        {
+                            "alphahull": 1,
+                            "color": "#A9A9A9",
+                            "hoverinfo": "name",
+                            "name": "i-ZnO/AZO",
+                            "opacity": 1,
+                            "showlegend": true,
+                            "x": [
+                                0,
+                                0,
+                                0,
+                                0,
+                                5,
+                                5,
+                                5,
+                                5
+                            ],
+                            "y": [
+                                0,
+                                0,
+                                5,
+                                5,
+                                0,
+                                0,
+                                5,
+                                5
+                            ],
+                            "z": [
+                                1,
+                                1.1,
+                                1,
+                                1.1,
+                                1,
+                                1.1,
+                                1,
+                                1.1
+                            ],
+                            "type": "mesh3d"
+                        },
+                        {
+                            "hoverinfo": "skip",
+                            "line": {
+                                "color": "black",
+                                "width": 3
+                            },
+                            "mode": "lines",
+                            "showlegend": false,
+                            "x": [
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null
+                            ],
+                            "y": [
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                0,
+                                0,
+                                null
+                            ],
+                            "z": [
+                                1,
+                                1,
+                                null,
+                                1,
+                                1,
+                                null,
+                                1,
+                                1,
+                                null,
+                                1,
+                                1,
+                                null,
+                                1.1,
+                                1.1,
+                                null,
+                                1.1,
+                                1.1,
+                                null,
+                                1.1,
+                                1.1,
+                                null,
+                                1.1,
+                                1.1,
+                                null,
+                                1,
+                                1.1,
+                                null,
+                                1,
+                                1.1,
+                                null,
+                                1,
+                                1.1,
+                                null,
+                                1,
+                                1.1,
+                                null
+                            ],
+                            "type": "scatter3d"
+                        },
+                        {
+                            "alphahull": 1,
+                            "color": "#909090",
+                            "hoverinfo": "name",
+                            "name": "NiOx",
+                            "opacity": 1,
+                            "showlegend": true,
+                            "x": [
+                                0,
+                                0,
+                                0,
+                                0,
+                                5,
+                                5,
+                                5,
+                                5
+                            ],
+                            "y": [
+                                0,
+                                0,
+                                5,
+                                5,
+                                0,
+                                0,
+                                5,
+                                5
+                            ],
+                            "z": [
+                                1.1,
+                                1.2,
+                                1.1,
+                                1.2,
+                                1.1,
+                                1.2,
+                                1.1,
+                                1.2
+                            ],
+                            "type": "mesh3d"
+                        },
+                        {
+                            "hoverinfo": "skip",
+                            "line": {
+                                "color": "black",
+                                "width": 3
+                            },
+                            "mode": "lines",
+                            "showlegend": false,
+                            "x": [
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null
+                            ],
+                            "y": [
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                0,
+                                0,
+                                null
+                            ],
+                            "z": [
+                                1.1,
+                                1.1,
+                                null,
+                                1.1,
+                                1.1,
+                                null,
+                                1.1,
+                                1.1,
+                                null,
+                                1.1,
+                                1.1,
+                                null,
+                                1.2,
+                                1.2,
+                                null,
+                                1.2,
+                                1.2,
+                                null,
+                                1.2,
+                                1.2,
+                                null,
+                                1.2,
+                                1.2,
+                                null,
+                                1.1,
+                                1.2,
+                                null,
+                                1.1,
+                                1.2,
+                                null,
+                                1.1,
+                                1.2,
+                                null,
+                                1.1,
+                                1.2,
+                                null
+                            ],
+                            "type": "scatter3d"
+                        },
+                        {
+                            "alphahull": 1,
+                            "color": "#D3D3D3",
+                            "hoverinfo": "name",
+                            "name": "SAM(2PACz)",
+                            "opacity": 1,
+                            "showlegend": true,
+                            "x": [
+                                0,
+                                0,
+                                0,
+                                0,
+                                5,
+                                5,
+                                5,
+                                5
+                            ],
+                            "y": [
+                                0,
+                                0,
+                                5,
+                                5,
+                                0,
+                                0,
+                                5,
+                                5
+                            ],
+                            "z": [
+                                1.2,
+                                1.3,
+                                1.2,
+                                1.3,
+                                1.2,
+                                1.3,
+                                1.2,
+                                1.3
+                            ],
+                            "type": "mesh3d"
+                        },
+                        {
+                            "hoverinfo": "skip",
+                            "line": {
+                                "color": "black",
+                                "width": 3
+                            },
+                            "mode": "lines",
+                            "showlegend": false,
+                            "x": [
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null
+                            ],
+                            "y": [
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                0,
+                                0,
+                                null
+                            ],
+                            "z": [
+                                1.2,
+                                1.2,
+                                null,
+                                1.2,
+                                1.2,
+                                null,
+                                1.2,
+                                1.2,
+                                null,
+                                1.2,
+                                1.2,
+                                null,
+                                1.3,
+                                1.3,
+                                null,
+                                1.3,
+                                1.3,
+                                null,
+                                1.3,
+                                1.3,
+                                null,
+                                1.3,
+                                1.3,
+                                null,
+                                1.2,
+                                1.3,
+                                null,
+                                1.2,
+                                1.3,
+                                null,
+                                1.2,
+                                1.3,
+                                null,
+                                1.2,
+                                1.3,
+                                null
+                            ],
+                            "type": "scatter3d"
+                        },
+                        {
+                            "alphahull": 1,
+                            "color": "firebrick",
+                            "hoverinfo": "name",
+                            "name": "Cs0.05(FA0.83MA0.17)0.95Pb(I0.83Br0.17)3",
+                            "opacity": 1,
+                            "showlegend": true,
+                            "x": [
+                                0,
+                                0,
+                                0,
+                                0,
+                                5,
+                                5,
+                                5,
+                                5
+                            ],
+                            "y": [
+                                0,
+                                0,
+                                5,
+                                5,
+                                0,
+                                0,
+                                5,
+                                5
+                            ],
+                            "z": [
+                                1.3,
+                                2.1,
+                                1.3,
+                                2.1,
+                                1.3,
+                                2.1,
+                                1.3,
+                                2.1
+                            ],
+                            "type": "mesh3d"
+                        },
+                        {
+                            "hoverinfo": "skip",
+                            "line": {
+                                "color": "black",
+                                "width": 3
+                            },
+                            "mode": "lines",
+                            "showlegend": false,
+                            "x": [
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null
+                            ],
+                            "y": [
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                0,
+                                0,
+                                null
+                            ],
+                            "z": [
+                                1.3,
+                                1.3,
+                                null,
+                                1.3,
+                                1.3,
+                                null,
+                                1.3,
+                                1.3,
+                                null,
+                                1.3,
+                                1.3,
+                                null,
+                                2.1,
+                                2.1,
+                                null,
+                                2.1,
+                                2.1,
+                                null,
+                                2.1,
+                                2.1,
+                                null,
+                                2.1,
+                                2.1,
+                                null,
+                                1.3,
+                                2.1,
+                                null,
+                                1.3,
+                                2.1,
+                                null,
+                                1.3,
+                                2.1,
+                                null,
+                                1.3,
+                                2.1,
+                                null
+                            ],
+                            "type": "scatter3d"
+                        },
+                        {
+                            "alphahull": 1,
+                            "color": "#BEBEBE",
+                            "hoverinfo": "name",
+                            "name": "LiF",
+                            "opacity": 1,
+                            "showlegend": true,
+                            "x": [
+                                0,
+                                0,
+                                0,
+                                0,
+                                5,
+                                5,
+                                5,
+                                5
+                            ],
+                            "y": [
+                                0,
+                                0,
+                                5,
+                                5,
+                                0,
+                                0,
+                                5,
+                                5
+                            ],
+                            "z": [
+                                2.1,
+                                2.2,
+                                2.1,
+                                2.2,
+                                2.1,
+                                2.2,
+                                2.1,
+                                2.2
+                            ],
+                            "type": "mesh3d"
+                        },
+                        {
+                            "hoverinfo": "skip",
+                            "line": {
+                                "color": "black",
+                                "width": 3
+                            },
+                            "mode": "lines",
+                            "showlegend": false,
+                            "x": [
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null
+                            ],
+                            "y": [
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                0,
+                                0,
+                                null
+                            ],
+                            "z": [
+                                2.1,
+                                2.1,
+                                null,
+                                2.1,
+                                2.1,
+                                null,
+                                2.1,
+                                2.1,
+                                null,
+                                2.1,
+                                2.1,
+                                null,
+                                2.2,
+                                2.2,
+                                null,
+                                2.2,
+                                2.2,
+                                null,
+                                2.2,
+                                2.2,
+                                null,
+                                2.2,
+                                2.2,
+                                null,
+                                2.1,
+                                2.2,
+                                null,
+                                2.1,
+                                2.2,
+                                null,
+                                2.1,
+                                2.2,
+                                null,
+                                2.1,
+                                2.2,
+                                null
+                            ],
+                            "type": "scatter3d"
+                        },
+                        {
+                            "alphahull": 1,
+                            "color": "#A9A9A9",
+                            "hoverinfo": "name",
+                            "name": "C60",
+                            "opacity": 1,
+                            "showlegend": true,
+                            "x": [
+                                0,
+                                0,
+                                0,
+                                0,
+                                5,
+                                5,
+                                5,
+                                5
+                            ],
+                            "y": [
+                                0,
+                                0,
+                                5,
+                                5,
+                                0,
+                                0,
+                                5,
+                                5
+                            ],
+                            "z": [
+                                2.2,
+                                2.3,
+                                2.2,
+                                2.3,
+                                2.2,
+                                2.3,
+                                2.2,
+                                2.3
+                            ],
+                            "type": "mesh3d"
+                        },
+                        {
+                            "hoverinfo": "skip",
+                            "line": {
+                                "color": "black",
+                                "width": 3
+                            },
+                            "mode": "lines",
+                            "showlegend": false,
+                            "x": [
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null
+                            ],
+                            "y": [
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                0,
+                                0,
+                                null
+                            ],
+                            "z": [
+                                2.2,
+                                2.2,
+                                null,
+                                2.2,
+                                2.2,
+                                null,
+                                2.2,
+                                2.2,
+                                null,
+                                2.2,
+                                2.2,
+                                null,
+                                2.3,
+                                2.3,
+                                null,
+                                2.3,
+                                2.3,
+                                null,
+                                2.3,
+                                2.3,
+                                null,
+                                2.3,
+                                2.3,
+                                null,
+                                2.2,
+                                2.3,
+                                null,
+                                2.2,
+                                2.3,
+                                null,
+                                2.2,
+                                2.3,
+                                null,
+                                2.2,
+                                2.3,
+                                null
+                            ],
+                            "type": "scatter3d"
+                        },
+                        {
+                            "alphahull": 1,
+                            "color": "#909090",
+                            "hoverinfo": "name",
+                            "name": "SnO2",
+                            "opacity": 1,
+                            "showlegend": true,
+                            "x": [
+                                0,
+                                0,
+                                0,
+                                0,
+                                5,
+                                5,
+                                5,
+                                5
+                            ],
+                            "y": [
+                                0,
+                                0,
+                                5,
+                                5,
+                                0,
+                                0,
+                                5,
+                                5
+                            ],
+                            "z": [
+                                2.3,
+                                2.4,
+                                2.3,
+                                2.4,
+                                2.3,
+                                2.4,
+                                2.3,
+                                2.4
+                            ],
+                            "type": "mesh3d"
+                        },
+                        {
+                            "hoverinfo": "skip",
+                            "line": {
+                                "color": "black",
+                                "width": 3
+                            },
+                            "mode": "lines",
+                            "showlegend": false,
+                            "x": [
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null
+                            ],
+                            "y": [
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                0,
+                                0,
+                                null
+                            ],
+                            "z": [
+                                2.3,
+                                2.3,
+                                null,
+                                2.3,
+                                2.3,
+                                null,
+                                2.3,
+                                2.3,
+                                null,
+                                2.3,
+                                2.3,
+                                null,
+                                2.4,
+                                2.4,
+                                null,
+                                2.4,
+                                2.4,
+                                null,
+                                2.4,
+                                2.4,
+                                null,
+                                2.4,
+                                2.4,
+                                null,
+                                2.3,
+                                2.4,
+                                null,
+                                2.3,
+                                2.4,
+                                null,
+                                2.3,
+                                2.4,
+                                null,
+                                2.3,
+                                2.4,
+                                null
+                            ],
+                            "type": "scatter3d"
+                        },
+                        {
+                            "alphahull": 1,
+                            "color": "#D3D3D3",
+                            "hoverinfo": "name",
+                            "name": "AZO",
+                            "opacity": 1,
+                            "showlegend": true,
+                            "x": [
+                                0,
+                                0,
+                                0,
+                                0,
+                                5,
+                                5,
+                                5,
+                                5
+                            ],
+                            "y": [
+                                0,
+                                0,
+                                5,
+                                5,
+                                0,
+                                0,
+                                5,
+                                5
+                            ],
+                            "z": [
+                                2.4,
+                                2.5,
+                                2.4,
+                                2.5,
+                                2.4,
+                                2.5,
+                                2.4,
+                                2.5
+                            ],
+                            "type": "mesh3d"
+                        },
+                        {
+                            "hoverinfo": "skip",
+                            "line": {
+                                "color": "black",
+                                "width": 3
+                            },
+                            "mode": "lines",
+                            "showlegend": false,
+                            "x": [
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null
+                            ],
+                            "y": [
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                0,
+                                0,
+                                null
+                            ],
+                            "z": [
+                                2.4,
+                                2.4,
+                                null,
+                                2.4,
+                                2.4,
+                                null,
+                                2.4,
+                                2.4,
+                                null,
+                                2.4,
+                                2.4,
+                                null,
+                                2.5,
+                                2.5,
+                                null,
+                                2.5,
+                                2.5,
+                                null,
+                                2.5,
+                                2.5,
+                                null,
+                                2.5,
+                                2.5,
+                                null,
+                                2.4,
+                                2.5,
+                                null,
+                                2.4,
+                                2.5,
+                                null,
+                                2.4,
+                                2.5,
+                                null,
+                                2.4,
+                                2.5,
+                                null
+                            ],
+                            "type": "scatter3d"
+                        },
+                        {
+                            "alphahull": 1,
+                            "color": "#BEBEBE",
+                            "hoverinfo": "name",
+                            "name": "Ag",
+                            "opacity": 1,
+                            "showlegend": true,
+                            "x": [
+                                0,
+                                0,
+                                0,
+                                0,
+                                5,
+                                5,
+                                5,
+                                5
+                            ],
+                            "y": [
+                                0,
+                                0,
+                                5,
+                                5,
+                                0,
+                                0,
+                                5,
+                                5
+                            ],
+                            "z": [
+                                2.5,
+                                2.6,
+                                2.5,
+                                2.6,
+                                2.5,
+                                2.6,
+                                2.5,
+                                2.6
+                            ],
+                            "type": "mesh3d"
+                        },
+                        {
+                            "hoverinfo": "skip",
+                            "line": {
+                                "color": "black",
+                                "width": 3
+                            },
+                            "mode": "lines",
+                            "showlegend": false,
+                            "x": [
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null
+                            ],
+                            "y": [
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                0,
+                                0,
+                                null
+                            ],
+                            "z": [
+                                2.5,
+                                2.5,
+                                null,
+                                2.5,
+                                2.5,
+                                null,
+                                2.5,
+                                2.5,
+                                null,
+                                2.5,
+                                2.5,
+                                null,
+                                2.6,
+                                2.6,
+                                null,
+                                2.6,
+                                2.6,
+                                null,
+                                2.6,
+                                2.6,
+                                null,
+                                2.6,
+                                2.6,
+                                null,
+                                2.5,
+                                2.6,
+                                null,
+                                2.5,
+                                2.6,
+                                null,
+                                2.5,
+                                2.6,
+                                null,
+                                2.5,
+                                2.6,
+                                null
+                            ],
+                            "type": "scatter3d"
+                        },
+                        {
+                            "alphahull": 1,
+                            "color": "#A9A9A9",
+                            "hoverinfo": "name",
+                            "name": "LiF",
+                            "opacity": 1,
+                            "showlegend": true,
+                            "x": [
+                                0,
+                                0,
+                                0,
+                                0,
+                                5,
+                                5,
+                                5,
+                                5
+                            ],
+                            "y": [
+                                0,
+                                0,
+                                5,
+                                5,
+                                0,
+                                0,
+                                5,
+                                5
+                            ],
+                            "z": [
+                                2.6,
+                                2.7,
+                                2.6,
+                                2.7,
+                                2.6,
+                                2.7,
+                                2.6,
+                                2.7
+                            ],
+                            "type": "mesh3d"
+                        },
+                        {
+                            "hoverinfo": "skip",
+                            "line": {
+                                "color": "black",
+                                "width": 3
+                            },
+                            "mode": "lines",
+                            "showlegend": false,
+                            "x": [
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null
+                            ],
+                            "y": [
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                0,
+                                0,
+                                null,
+                                5,
+                                5,
+                                null,
+                                5,
+                                5,
+                                null,
+                                0,
+                                0,
+                                null
+                            ],
+                            "z": [
+                                2.6,
+                                2.6,
+                                null,
+                                2.6,
+                                2.6,
+                                null,
+                                2.6,
+                                2.6,
+                                null,
+                                2.6,
+                                2.6,
+                                null,
+                                2.7,
+                                2.7,
+                                null,
+                                2.7,
+                                2.7,
+                                null,
+                                2.7,
+                                2.7,
+                                null,
+                                2.7,
+                                2.7,
+                                null,
+                                2.6,
+                                2.7,
+                                null,
+                                2.6,
+                                2.7,
+                                null,
+                                2.6,
+                                2.7,
+                                null,
+                                2.6,
+                                2.7,
+                                null
+                            ],
+                            "type": "scatter3d"
+                        }
+                    ],
+                    "layout": {
+                        "legend": {
+                            "x": 0,
+                            "y": 1,
+                            "xanchor": "left",
+                            "yanchor": "top",
+                            "traceorder": "reversed"
+                        },
+                        "scene": {
+                            "xaxis": {
+                                "visible": false,
+                                "showgrid": false,
+                                "zeroline": false
+                            },
+                            "yaxis": {
+                                "visible": false,
+                                "showgrid": false,
+                                "zeroline": false
+                            },
+                            "zaxis": {
+                                "visible": false,
+                                "showgrid": false,
+                                "zeroline": false
+                            },
+                            "camera": {
+                                "eye": {
+                                    "x": 1.75,
+                                    "y": 1.75,
+                                    "z": 1.25
+                                }
+                            },
+                            "dragmode": "turntable"
+                        },
+                        "margin": {
+                            "r": 10,
+                            "l": 10,
+                            "b": 10,
+                            "t": 50
+                        },
+                        "hovermode": "closest",
+                        "width": 800,
+                        "height": 600,
+                        "showlegend": true,
+                        "annotations": [
+                            {
+                                "align": "left",
+                                "borderwidth": 0,
+                                "showarrow": false,
+                                "text": "<b>Device Parameters</b><br>Efficiency = 27.200<br>V<sub>OC</sub> = 1.7 V<br>J<sub>SC</sub> = 20.5 mA / cm ** 2<br>FF = 77.200",
+                                "x": 1,
+                                "xanchor": "right",
+                                "xref": "paper",
+                                "y": 1,
+                                "yanchor": "top",
+                                "yref": "paper"
+                            }
+                        ]
+                    }
+                },
+                "pathIndex": 0
+            }
+        ],
+        "general": {
+            "architecture": "Monolithic",
+            "number_of_terminals": 2,
+            "photoabsorbers": [
+                "CIGS",
+                "Perovskite"
+            ],
+            "photoabsorbers_bandgaps": [
+                1.042,
+                1.632
+            ],
+            "production_date": "2025-09-25T12:44:00+00:00",
+            "contains_antireflective_coating": true,
+            "substrate_area": 2.5,
+            "cell_area": 0.25,
+            "active_area": 1.04,
+            "number_of_cells": 1,
+            "photoabsorbers_string": "CIGS-Perovskite",
+            "stack_sequence": "Molybedenum | CIGS | Cds | i-ZnO/AZO | NiOx | SAM(2PACz) | Cs0.05(FA0.83MA0.17)0.95Pb(I0.83Br0.17)3 | LiF | C60 | SnO2 | AZO | Ag | LiF",
+            "number_of_layers": 13
+        },
+        "reference": {
+            "DOI_number": "https://doi.org/10.1021/acsami.5c15458",
+            "publication_authors": [
+                "Guillermo Farias-Basulto",
+                "Thede Mehlhop",
+                "Nicolas J. Otto",
+                "Tobias Bertram",
+                "Klaus Jäger",
+                "Stefan Gall",
+                "Nikolaus Weinberger",
+                "Rutger Schlatmann",
+                "Iver Lauermann",
+                "Reiner Klenk",
+                "Emil List-Kratochvil",
+                "Christian A. Kaufmann"
+            ],
+            "publication_date": "2025-09-26T00:09:37+00:00",
+            "journal": "ACS Applied Materials &amp; Interfaces",
+            "publication_title": "Improving Perovskite/CIGS Tandem Solar Cells for Higher Power Conversion Efficiency through Light Management and Bandgap Engineering",
+            "sample_id": "4-4368-30-4",
+            "name_of_person_entering_the_data": "Ayman Maqsood",
+            "authors": [
+                {
+                    "name": "Guillermo Farias-Basulto"
+                },
+                {
+                    "name": "Thede Mehlhop"
+                },
+                {
+                    "name": "Nicolas J. Otto"
+                },
+                {
+                    "name": "Tobias Bertram"
+                },
+                {
+                    "name": "Klaus Jäger"
+                },
+                {
+                    "name": "Stefan Gall"
+                },
+                {
+                    "name": "Nikolaus Weinberger"
+                },
+                {
+                    "name": "Rutger Schlatmann"
+                },
+                {
+                    "name": "Iver Lauermann"
+                },
+                {
+                    "name": "Reiner Klenk"
+                },
+                {
+                    "name": "Emil List-Kratochvil"
+                },
+                {
+                    "name": "Christian A. Kaufmann"
+                }
+            ]
+        },
+        "key_performance_metrics": {
+            "power_conversion_efficiency_stabilized": 24.5,
+            "power_conversion_efficiency": 27.2,
+            "short_circuit_current_density": 20.5,
+            "open_circuit_voltage": 1.7,
+            "fill_factor": 77.2,
+            "maximum_power_point_voltage": 27.2,
+            "maximum_power_point_current_density": 18.7
+        },
+        "device_stack": [
+            {
+                "name": "Molybedenum",
+                "device_subset": 0,
+                "functionality": "back contact",
+                "layer_index": 1,
+                "deposition_procedure": {
+                    "substrate_layer": "is substrate",
+                    "origin": "deposited in house",
+                    "steps": [
+                        {
+                            "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.Sputtering",
+                            "m_def_id": "10f30710e34ac41db7e797a2d8a9bf49f94d7ddd",
+                            "method": "Sputtering"
+                        }
+                    ]
+                },
+                "properties": {
+                    "thickness": {
+                        "value": 800,
+                        "determined_by": "SEM"
+                    }
+                }
+            },
+            {
+                "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.Photoabsorber_CIGS",
+                "m_def_id": "f5dd0b6c621368c1e15832b89beb981c861368d2",
+                "name": "CIGS",
+                "device_subset": 0,
+                "functionality": "photoabsorber",
+                "layer_index": 2,
+                "molecular_formula": "",
+                "deposition_procedure": {
+                    "substrate_layer": "on lower layer",
+                    "origin": "deposited in house",
+                    "steps": [
+                        {
+                        }
+                    ]
+                },
+                "post_deposition_procedure": {
+                },
+                "properties": {
+                    "area": {
+                        "value": 1
+                    },
+                    "band_gap": {
+                        "value": 1.042,
+                        "determined_by": "eqe"
+                    },
+                    "surface_roughness": {
+                        "value": 80,
+                        "determined_by": "confocal microscopy"
+                    },
+                    "thickness": {
+                        "value": 2200,
+                        "determined_by": "SEM "
+                    }
+                }
+            },
+            {
+                "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.GeneralLayer",
+                "m_def_id": "736ad75769e3cb798589f4993d71ce56d011513a",
+                "name": "Cds",
+                "device_subset": 0,
+                "functionality": "buffer layer",
+                "layer_index": 3,
+                "deposition_procedure": {
+                    "steps": [
+                        {
+                            "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.ChemicalBathDeposition",
+                            "m_def_id": "79f591ed23b12aa4485d28d61ecd7a6ab5370dc8",
+                            "method": "ChemicalBathDeposition"
+                        }
+                    ]
+                },
+                "properties": {
+                    "thickness": {
+                        "value": 50,
+                        "determined_by": "SEM"
+                    }
+                }
+            },
+            {
+                "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.GeneralLayer",
+                "m_def_id": "736ad75769e3cb798589f4993d71ce56d011513a",
+                "name": "i-ZnO/AZO",
+                "device_subset": 0,
+                "functionality": "transparent conducting oxide",
+                "layer_index": 4,
+                "deposition_procedure": {
+                    "steps": [
+                        {
+                            "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.Sputtering",
+                            "m_def_id": "10f30710e34ac41db7e797a2d8a9bf49f94d7ddd",
+                            "equipment": "viss sputtering ",
+                            "method": "Sputtering",
+                            "type_of_sputering": "RF sputtering"
+                        }
+                    ]
+                },
+                "properties": {
+                    "thickness": {
+                        "value": 100,
+                        "determined_by": "SEM"
+                    }
+                }
+            },
+            {
+                "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.GeneralLayer",
+                "m_def_id": "736ad75769e3cb798589f4993d71ce56d011513a",
+                "name": "NiOx",
+                "device_subset": 0,
+                "functionality": "hole transport layer",
+                "layer_index": 5,
+                "deposition_procedure": {
+                    "substrate_layer": "on lower layer",
+                    "origin": "deposited in house",
+                    "steps": [
+                        {
+                            "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.SpinCoating",
+                            "m_def_id": "b1ae387a59f25dffee12d1cdd86ad287167e72fe",
+                            "duration": 30,
+                            "method": "SpinCoating",
+                            "antisolvent": false,
+                            "spin_coating_steps": [
+                                {
+                                    "duration": 30,
+                                    "speed_start": 3000,
+                                    "speed_end": 3000,
+                                    "acceleration": 1000
+                                }
+                            ],
+                            "solution": {
+                                "preparation_date": "2025-01-15T13:10:00+00:00",
+                                "volume": 3,
+                                "density": 0.5,
+                                "temperature": 150,
+                                "temperature_max": 150,
+                                "colour": "blue",
+                                "filter_pour_size": 0.2
+                            },
+                            "environmental_conditions": {
+                                "ambient_conditions": true
+                            }
+                        },
+                        {
+                        }
+                    ]
+                },
+                "properties": {
+                    "thickness": {
+                        "value": 5,
+                        "determined_by": "SEM"
+                    }
+                },
+                "components": [
+                    {
+                        "aggregation_state": "solution",
+                        "supplier": {
+                            "supplier": "LUMTEC"
+                        }
+                    }
+                ]
+            },
+            {
+                "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.GeneralLayer",
+                "m_def_id": "736ad75769e3cb798589f4993d71ce56d011513a",
+                "name": "SAM(2PACz)",
+                "device_subset": 0,
+                "functionality": "self assembled monolayer",
+                "layer_index": 6,
+                "deposition_procedure": {
+                    "substrate_layer": "on lower layer",
+                    "origin": "deposited in house",
+                    "steps": [
+                        {
+                            "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.SpinCoating",
+                            "m_def_id": "b1ae387a59f25dffee12d1cdd86ad287167e72fe",
+                            "duration": 35,
+                            "method": "SpinCoating",
+                            "spin_coating_steps": [
+                                {
+                                    "duration": 35,
+                                    "speed_start": 1000,
+                                    "speed_end": 3000,
+                                    "acceleration": 1000
+                                }
+                            ],
+                            "solution": {
+                                "preparation_date": "2025-01-15T14:19:00+00:00",
+                                "volume": 3,
+                                "density": 0.003,
+                                "colour": "white",
+                                "components": [
+                                    {
+                                        "name": "Ethanol ",
+                                        "functionality": "solvent",
+                                        "origin": "commercial supplier"
+                                    }
+                                ]
+                            },
+                            "environmental_conditions": {
+                                "in_glove_box": true,
+                                "oxygen_concentration": 0.5
+                            }
+                        },
+                        {
+                        }
+                    ]
+                },
+                "properties": {
+                }
+            },
+            {
+                "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.Photoabsorber",
+                "m_def_id": "6f874f3b0cda69b81896c705b1996e130a8c51ed",
+                "name": "Cs0.05(FA0.83MA0.17)0.95Pb(I0.83Br0.17)3",
+                "device_subset": 0,
+                "functionality": "photoabsorber",
+                "layer_index": 7,
+                "deposition_procedure": {
+                    "substrate_layer": "on lower layer",
+                    "origin": "deposited in house",
+                    "duration": 1,
+                    "steps": [
+                        {
+                            "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.SpinCoating",
+                            "m_def_id": "b1ae387a59f25dffee12d1cdd86ad287167e72fe",
+                            "duration": 60,
+                            "method": "SpinCoating",
+                            "antisolvent": true,
+                            "solvent_volume": 0.1,
+                            "distance_between_tip_and_substrate": 5,
+                            "spin_coating_steps": [
+                                {
+                                    "duration": 40,
+                                    "speed_start": 3000,
+                                    "speed_end": 3500,
+                                    "acceleration": 1000
+                                }
+                            ],
+                            "antisolvent_details": {
+                                "volume": 0.25,
+                                "start_time": 25,
+                                "distance_between_tip_and_substrate": 5
+                            }
+                        }
+                    ]
+                },
+                "post_deposition_procedure": {
+                    "duration": 1800,
+                    "equipment": "hotplate ",
+                    "steps": [
+                        {
+                            "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.Heating",
+                            "m_def_id": "7c30cc72a73b9e12b3fd1536ec3c757dbc600f32",
+                            "duration": 30,
+                            "method": "Heating",
+                            "heating_medium": "hotplate",
+                            "environmental_conditions": {
+                                "in_glove_box": true
+                            }
+                        }
+                    ],
+                    "environmental_conditions": {
+                        "in_glove_box": true
+                    }
+                },
+                "properties": {
+                    "band_gap": {
+                        "value": 1.63,
+                        "determined_by": "eqe"
+                    },
+                    "conductivity": {
+                    },
+                    "thickness": {
+                        "value": 550,
+                        "determined_by": "SEM"
+                    }
+                },
+                "components": [
+                    {
+                        "name": "DFM/DMSO",
+                        "functionality": "solvent",
+                        "aggregation_state": "liquid"
+                    }
+                ]
+            },
+            {
+                "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.GeneralLayer",
+                "m_def_id": "736ad75769e3cb798589f4993d71ce56d011513a",
+                "name": "LiF",
+                "device_subset": 0,
+                "functionality": "interface modifier",
+                "layer_index": 8,
+                "deposition_procedure": {
+                    "substrate_layer": "on lower layer",
+                    "origin": "deposited in house",
+                    "duration": 15,
+                    "steps": [
+                        {
+                            "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.Evaporation",
+                            "m_def_id": "0f4fa37faaef54f30d6b339e95311b8a134e8dc1",
+                            "duration": 900,
+                            "equipment": "Thermal Evaporator ",
+                            "method": "Evaporation",
+                            "environmental_conditions": {
+                                "in_glove_box": true
+                            }
+                        }
+                    ]
+                },
+                "properties": {
+                    "thickness": {
+                        "value": 1,
+                        "determined_by": "SEM"
+                    }
+                }
+            },
+            {
+                "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.GeneralLayer",
+                "m_def_id": "736ad75769e3cb798589f4993d71ce56d011513a",
+                "name": "C60",
+                "device_subset": 0,
+                "functionality": "electron transport layer",
+                "layer_index": 9,
+                "deposition_procedure": {
+                    "substrate_layer": "on lower layer",
+                    "origin": "deposited in house",
+                    "steps": [
+                        {
+                            "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.Evaporation",
+                            "m_def_id": "0f4fa37faaef54f30d6b339e95311b8a134e8dc1",
+                            "duration": 1680,
+                            "equipment": "Thermal Evaporator ",
+                            "method": "Evaporation",
+                            "sources": [
+                                {
+                                }
+                            ],
+                            "environmental_conditions": {
+                                "in_glove_box": true
+                            }
+                        },
+                        {
+                        }
+                    ]
+                },
+                "properties": {
+                    "thickness": {
+                        "value": 23
+                    }
+                }
+            },
+            {
+                "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.GeneralLayer",
+                "m_def_id": "736ad75769e3cb798589f4993d71ce56d011513a",
+                "name": "SnO2",
+                "device_subset": 0,
+                "functionality": "electron transport layer",
+                "layer_index": 10,
+                "deposition_procedure": {
+                    "substrate_layer": "on lower layer",
+                    "origin": "deposited in house",
+                    "duration": 150,
+                    "steps": [
+                        {
+                            "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.AtomicLayerDeposition",
+                            "m_def_id": "e66519081448c1933d845f30629dde99a59f1f52",
+                            "equipment": "ALD",
+                            "method": "AtomicLayerDeposition",
+                            "number_of_cycles": 140,
+                            "carrier_gas": "N2"
+                        }
+                    ]
+                },
+                "properties": {
+                    "thickness": {
+                        "value": 20,
+                        "determined_by": "Recipe +SEM"
+                    }
+                }
+            },
+            {
+                "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.GeneralLayer",
+                "m_def_id": "736ad75769e3cb798589f4993d71ce56d011513a",
+                "name": "AZO",
+                "device_subset": 0,
+                "functionality": "transparent conducting oxide",
+                "layer_index": 11,
+                "deposition_procedure": {
+                    "substrate_layer": "on lower layer",
+                    "origin": "deposited in house",
+                    "duration": 90,
+                    "steps": [
+                        {
+                            "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.Sputtering",
+                            "m_def_id": "10f30710e34ac41db7e797a2d8a9bf49f94d7ddd",
+                            "method": "Sputtering"
+                        }
+                    ]
+                },
+                "properties": {
+                    "thickness": {
+                        "value": 40,
+                        "determined_by": "recipe and SEM"
+                    }
+                }
+            },
+            {
+                "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.GeneralLayer",
+                "m_def_id": "736ad75769e3cb798589f4993d71ce56d011513a",
+                "name": "Ag",
+                "device_subset": 0,
+                "functionality": "front contact",
+                "layer_index": 12,
+                "deposition_procedure": {
+                    "substrate_layer": "on lower layer",
+                    "origin": "deposited in house",
+                    "steps": [
+                        {
+                            "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.Evaporation",
+                            "m_def_id": "0f4fa37faaef54f30d6b339e95311b8a134e8dc1",
+                            "method": "Evaporation"
+                        }
+                    ]
+                },
+                "properties": {
+                    "area": {
+                    },
+                    "thickness": {
+                        "value": 500
+                    }
+                }
+            },
+            {
+                "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.GeneralLayer",
+                "m_def_id": "736ad75769e3cb798589f4993d71ce56d011513a",
+                "name": "LiF",
+                "device_subset": 0,
+                "functionality": "anti reflection",
+                "layer_index": 13,
+                "deposition_procedure": {
+                    "substrate_layer": "on lower layer",
+                    "steps": [
+                        {
+                            "m_def": "perovskite_solar_cell_database.schema_packages.tandem.device_stack.Evaporation",
+                            "m_def_id": "0f4fa37faaef54f30d6b339e95311b8a134e8dc1",
+                            "duration": 9000,
+                            "equipment": "thermal evaporator ",
+                            "method": "Evaporation",
+                            "environmental_conditions": {
+                                "in_glove_box": true
+                            }
+                        }
+                    ]
+                },
+                "properties": {
+                    "thickness": {
+                        "value": 110
+                    }
+                }
+            }
+        ],
+        "measurements": {
+            "jv": [
+                {
+                    "certified": true,
+                    "results": {
+                        "short_circuit_current_density": 20.5,
+                        "open_circuit_voltage": 1.7,
+                        "fill_factor": 0.772,
+                        "power_conversion_efficiency": 27.6,
+                        "maximum_power_point_voltage": 27.6,
+                        "maximum_power_point_current_density": 18.7,
+                        "resistance_series": 5.4,
+                        "resistance_shunt": 10192.2
+                    },
+                    "measurement_conditions": {
+                        "scan_direction": "forward",
+                        "voltage_step": 0.1,
+                        "delay_time": 0.02
+                    },
+                    "environmental_conditions": {
+                        "ambient_conditions": true
+                    },
+                    "light_source": {
+                        "spectrum": "AM1.5G",
+                        "light_source": "Solar simulator unspecified",
+                        "light_source_model": "Wacom "
+                    },
+                    "illumination": {
+                    },
+                    "preconditioned_conditions": {
+                    },
+                    "sample_history": {
+                    },
+                    "certification_details": {
+                        "certifying_institution": "CalLab Fraunhofer ISE",
+                        "certification_protocol": "MMP tracking and VOC to Isc measurement",
+                        "certification_date": "2025-01-17T12:12:00+00:00"
+                    }
+                },
+                {
+                }
+            ],
+            "eqe": [
+                {
+                    "certified": true,
+                    "results": {
+                        "integrated_short_circuit_current_density": 20.5,
+                        "eqe_onset": 350,
+                        "eqe_inflection_point": 780,
+                        "eqe_max": 92
+                    },
+                    "measurement_conditions": {
+                    },
+                    "environmental_conditions": {
+                        "ambient_conditions": true
+                    },
+                    "certification_details": {
+                        "certifying_institution": "ISE",
+                        "certification_date": "2025-01-17T12:44:00+00:00"
+                    },
+                    "raw_data": {
+                    }
+                }
+            ]
+        },
+        "module_data": {
+        },
+        "encapsulation_data": {
+        }
+    }
+}
