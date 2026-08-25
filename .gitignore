@@ -1,4 +1,8 @@
 # Ignore Python virtual environments
+.venv/
 venv/
+.env
 
 instructions.txt
+
+result.json
